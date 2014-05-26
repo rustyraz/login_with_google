@@ -13,9 +13,9 @@ class GoogleAuth{
 
 		if($this->client)
 		{
-			$this->client->setClientId('1082997521302-giful5af5anp402iulq6kfko5nrj78nd.apps.googleusercontent.com');//Enter the Client ID from google app
-			$this->client->setClientSecret('QhqyW0rh4CKoNXkaWoYF2DGS');//Enter Client Secret code
-			$this->client->setRedirectUri('http://localhost/test_projects/google_auth/index.php');//Enter the URl the user will be redirected after authentications on google
+			$this->client->setClientId('');//Enter the Client ID from google app
+			$this->client->setClientSecret('');//Enter Client Secret code
+			$this->client->setRedirectUri('http://example.com/project/index.php');//Enter the URl the user will be redirected after authentications on google
 			$this->client->setScopes('email');
 		}
 	}
